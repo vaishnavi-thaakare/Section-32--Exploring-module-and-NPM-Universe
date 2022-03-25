@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring module and NPM Universe</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1> Exploring module and NPM Universe</h1>
+    <hr>
+    <h3>NPM</h3>
+    <li> NPM- Node Package Manager </li>
+    <li> Library of thousand of packages .</li>
+
+
+    <h3>@ Installing packages - Jokes and color</h3>
+    <li>step 1 - npm install</li>
+    <li>Step 2- npm install give-me-a-package</li>
+    <li>const jokes = require("give-me-a-joke");
+        console.log(jokes)
+        jokes.getRandomDadJoke (function(joke) {
+             console.log(joke);
+        });</li>
+
+
+
+    <li> step 1- var colors = require('colors');
+ 
+        console.log('hello'.green)</li>
+    <li> </li>    
+    
+    
+    <hr>
+    <h3> @ installing local and global packages</h3>
+    <li> Local package - color (shelter folder)</li>
+    <li>Step 1- npm i colors</li>
+    <li>Step 2-const colorSystem = require("colors");
+        console.log(colorSystem);</li>
+    <li>Step 3- console.log('OMG Rainbows!'.rainbow)</li>
+    <li>Step 4- In terminal (node app.js)</li>
+
+    
+    <li> Step 1- create a foldername folder</li>
+    <li>Step 2-create index.js</li>
+    <li>step 3- console.log("Vaishnavi")
+        const colorSystem = require("colors");
+        console.log(colorSystem);
+        console.log('OMG Rainbows!'.rainbow);</li>
+    <li> As that particular folder doesnot contain node_module it will show you an error.</li>    
+
+
+
+    <li> Global - (Using -g word)</li>
+
+    <li>Step 1- npm i nodemon</li>
+    <li> Step 2- in commond promt too to install it in  system </li>
+    <li> Still not getting result with nodemon app.js</li>
+
+
+
+
+    <h1> @ Package.json</h1>
+    <li> In dependency it will show you all the packages installed .</li>
+
+    <h1> @ package-lock.json</h1>
+
+
+    <h1> @ Installing all the dependencies for the projects</h1>
+    <li> node_module contain tons and tons of dependencies and it will require lots of space.</li>
+    <li>https://github.com/dkhd/node-group-chat--------download this
+    </li>
+    <li> It will show you an error as it doesnot contain node_module</li>
+    <li> npm install </li>
+    <li> now it will contain node_module </li>
+    <li> Here we are running NPM  install to go ahead and install dependencies based upon packages JSON files.</li>
+
+
+
+
+    <hr>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
